@@ -1,0 +1,26 @@
+{
+  "name": "digarchiverewrite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx vite",
+    "server": "node server/server.js",
+    "dev": "concurrently \"npx vite\" \"node server/server.js\""
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ardb": "^1.1.10",
+    "arweave": "^1.15.7",
+    "express": "^5.1.0",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
